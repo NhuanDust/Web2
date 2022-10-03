@@ -1,0 +1,178 @@
+/* css sign in main */
+.singin__main{
+    height: 700px;
+    margin: 32px 300px 10px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.singin__main-img{
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    transform: translateX(20px) ;
+}
+.singin__main-img--default{
+    height: 90%;
+    margin-left: 20px;
+}
+.singin__main-img-change{
+    position: absolute;
+    top: 3.65%;
+    right: 11.2%;
+}
+.singin__main-form{
+    display: block;
+    height: 100%;
+}
+.singin__main-form-singin{
+    margin-top: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+}
+.form__logo{
+    margin-top: 46px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.form__logo-img{
+    width: 175px;
+    height: 60px;
+    object-fit: contain;
+    flex: 1;
+}
+.form__singin{
+    padding: 20px 40px;
+}
+.form__singin-input-acc{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+.form__singin-account{
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+.form__singin--btn{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 149, 246, 0.3);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.form__singin-space{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+.form__singin-space--left{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 35%;
+}
+.form__singin-space--text{
+    width: 30%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.form__singin-space--right{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 35%;
+}
+.singin__with-facebook{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-left: 40px;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    color: #385185;
+    font-weight: 500;
+    align-items: center;
+}
+.singin__with-facebook--icon i{
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+.singin__pass--fogot{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.singin__swap-register{
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+    text-align: center;
+    color: black;
+}
+.singin__swap-register-text{
+    padding: 5px 0px;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.singin__swap-register-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #0095f6;
+}
+.singin__dowload-app{
+    margin-right: 100px;
+}
+.singin__dowload-app-text{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.singin__dowload-app--img{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.singin__dowload-app-chplay img{
+    width: 140px;
+    object-fit: contain;
+    margin-left: 21px;
+}
+.singin__dowload-app-appstore img{
+    width: 140px;
+    object-fit: contain;
+    margin-right: 21spx;
+
+}
+.singin__footer{
+    text-align: center;
+    margin-top: 0px;
+}
+.singin__footer--list--link{
+    margin: 0;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2rem;
+    padding: 0 8px;
+    line-height: 1.2rem;
+}
+.singin__footer--list2{
+    margin-top: 8px;
+}
